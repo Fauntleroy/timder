@@ -78,6 +78,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 103% 0;
   margin: 0 0 84px 0;
   list-style-type: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
 }
 
 .cards__card {
