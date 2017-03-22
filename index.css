@@ -40,7 +40,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Gordita', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(146, 146, 146);
 }
 
@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__logo {
-  height: 40px;
+  height: 30px;
 }
 
 
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 	height: 0;
   padding: 0 0 103% 0;
-  margin: 0 0 90px 0;
+  margin: 0 0 84px 0;
   list-style-type: none;
 }
 
