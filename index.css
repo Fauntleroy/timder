@@ -88,15 +88,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 7px;
   border: rgb(206, 206, 206) 1px solid;
   background: white;
-  transform: translateY(5%) scale(0.95);
-}
-
-.cards__card:nth-child(n+2) {
-  transform: translateY(2.5%) scale(0.975);
-}
-
-.cards__card:nth-child(n+3) {
-  transform: translateY(0) scale(1);
 }
 
 .cards__card__photo {
