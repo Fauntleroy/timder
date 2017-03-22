@@ -17,10 +17,9 @@ cardElements.forEach(function(cardElement){
 });
 
 stack.on('throwoutend', function (event) {
-  console.log('throw out ended', event);
   throwoutCount++;
-  console.log(throwoutCount);
-  if (throwoutCount > 2) {
+
+  if (throwoutCount >= cards.length) {
     document.querySelector('.timder').classList.add('timder--complete');
     setTimeout(function(){
       document.querySelector('.timder').classList.add('timder--match');
@@ -32,6 +31,6 @@ likeElement.addEventListener('click', function (event) {
   event.preventDefault();
 
   var cardIndex = cards.length - (throwoutCount + 1);
-  console.log(cardIndex);
+
   cards[cardIndex].throwOut(window.outerWidth / 1.5, 0, RIGHT);
 });
