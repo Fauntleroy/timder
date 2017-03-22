@@ -1,0 +1,27 @@
+{
+  "name": "timder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "static .",
+    "build": "browserify index.js -o index-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fauntleroy/timder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fauntleroy/timder/issues"
+  },
+  "homepage": "https://github.com/Fauntleroy/timder#readme",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "node-static": "^0.7.9"
+  },
+  "dependencies": {
+    "swing": "^4.2.0"
+  }
+}

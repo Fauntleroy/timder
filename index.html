@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="timder">
+      <header class="header">
+        <img class="header__logo" src="./images/logo.svg" />
+      </header>
+      <section class="cards">
+        <ul class="cards__deck">
+          <li class="cards__card">
+            <img class="cards__card__photo" src="./images/photo-3.jpg" />
+            <div class="cards__card__info">
+              <h1 class="cards__card__name-and-age">
+                <span class="cards__card__name">Tim, </span>
+                <var class="cards__card__age">28</var>
+              </h1>
+              <p class="cards__card__match-text">You are both pretzel lovers!</p>
+            </div>
+          </li>
+
+          <li class="cards__card">
+            <img class="cards__card__photo" src="./images/photo-2.jpg" />
+            <div class="cards__card__info">
+              <h1 class="cards__card__name-and-age">
+                <span class="cards__card__name">Tim, </span>
+                <var class="cards__card__age">28</var>
+              </h1>
+              <p class="cards__card__match-text">You are both waiting for Season 3.</p>
+            </div>
+          </li>
+
+          <li class="cards__card">
+            <img class="cards__card__photo" src="./images/photo-1.jpg" />
+            <div class="cards__card__info">
+              <h1 class="cards__card__name-and-age">
+                <span class="cards__card__name">Tim, </span>
+                <var class="cards__card__age">28</var>
+              </h1>
+              <p class="cards__card__match-text">You are both interested in David O'Reilly.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="actions">
+        <ul class="actions__group">
+          <li class="actions__action">
+            <a class="actions__like actions__action__link" href="#like">
+              <svg class="icon icon-heart">
+                <use xlink:href="./images/timder-icons.svg#icon-heart"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="match">
+        <div class="match__card">
+          <h1 class="match__heading">It's a Match!</h1>
+          <p class="match__info">You and Tim have liked each other.</p>
+          <img class="match__photo" src="./images/photo-match.jpg" />
+        </div>
+      </section>
+    </div>
+    <script src="./index-compiled.js"></script>
+  </body>
+</html>
